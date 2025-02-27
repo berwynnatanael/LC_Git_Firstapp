@@ -11,6 +11,7 @@ public class ChangeSceneAfterSecond : MonoBehaviour
     {
         Invoke("ChangeAfterSecond", second);
     }
+
     private void ChangeAfterSecond()
     {
         ls.ChangeScene(sceneName);
